@@ -1,0 +1,101 @@
+.container-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+
+    .categories {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 130px;
+
+        h2 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -0.04em;
+            color: #000000;
+        }
+
+        button {
+            padding: 21px 27px;
+            background: #E7FAFE;
+            border-radius: 16px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            letter-spacing: -0.02em;
+            color: #000000;
+            border: none;
+        }
+
+    }
+
+    .products {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .product {
+            width: 180px;
+            height: 152px;
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+            border-radius: 30px;
+            position: relative;
+            margin-right: 60px;
+
+            img {
+                position: absolute;
+                top: -50%;
+                margin-bottom: 50px;
+            }
+
+
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                letter-spacing: -0.02em;
+                color: #000000;
+
+            }
+        }
+
+        .breakfast {
+            background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+        }
+
+        .vegan {
+            background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+        }
+
+        .meat {
+            background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+        }
+
+        .cake {
+            background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+        }
+
+        .lunch {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+        }
+
+        .choco {
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+        }
+
+    }
+}
